@@ -1,0 +1,68 @@
+/* Paleta: roxo, branco, preto, vermelho */
+
+:root {
+  --roxo: #6a1b9a;
+  --vermelho: #c62828;
+  --preto: #212121;
+  --branco: #f9f9f9;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: var(--branco);
+  color: var(--preto);
+  line-height: 1.6;
+  padding: 0 1rem;
+}
+
+header {
+  background-color: var(--roxo);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom: 5px solid var(--vermelho);
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.subtitulo {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+h2 {
+  border-left: 5px solid var(--roxo);
+  padding-left: 0.5rem;
+  color: var(--roxo);
+  font-size: 1.5rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+blockquote {
+  background-color: #f3e5f5;
+  border-left: 4px solid var(--roxo);
+  margin: 1rem 0;
+  padding: 1rem;
+  font-style: italic;
+}
+
+footer {
+  background-color: var(--preto);
+  color: var(--branco);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
